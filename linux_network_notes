@@ -1,0 +1,5 @@
+1. ip link is use to list all interfaces whether virtual or physical
+2. ip addr list the ip address of the interface
+3.for two or more computers to communicate on the same network we need a switch which is a smart device that enables  the computerst to talk to each other
+4.for two networks to communicate we need a router for the the devices on  those networks to be able to communicate.For any network to be able be able to communicate they both need to have a default gateway which acts the door to that to that network. we can use the command ip route add ip address of the network we can to communicate via the default gateway of the other network. example is ip route add 216.134.45.0/24 via 192.168.2.1 or if we dont know the ip address of the network whose device we want to use to communicate to another device tthen we simply write ip route add default via default gateway ip address
+
